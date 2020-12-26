@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme"
         android:icon="@mipmap/ic_launcher">
         <activity android:name=".create_your_mask"
-            android:label="@string/title_create_your_mask"/>
+            android:label="@string/title_create_your_mask"
+            android:parentActivityName="com.pemvis.maskerku.MainActivity" />
         <activity android:name=".LoginActivity"
             android:label="@string/title_login" />
         <activity android:name=".MainActivity">
