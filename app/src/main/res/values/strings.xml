@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Maskerku</string>
+    <string name="title_login">Login</string>
     <string name="image_create_your_mask">create your mask</string>
     <string name="image_choose_your_design">choose your design</string>
+    <string name="label_most_popular">Most Popular :</string>
+    <string name="title_create_your_mask">Create Your Mask</string>
 </resources>
