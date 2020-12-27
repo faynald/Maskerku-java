@@ -9,48 +9,49 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="231dp">
-
-        <ImageView
-            android:id="@+id/image_create_your_mask"
-            android:layout_width="207dp"
-            android:layout_height="208dp"
-            android:clickable="true"
-            android:contentDescription="@string/image_create_your_mask"
-            android:focusable="true"
-            android:onClick="toCreateYourMask"
-            app:srcCompat="@drawable/create_your_mask" />
-
-        <ImageView
-            android:id="@+id/image_choose_your_design"
-            android:layout_width="207dp"
-            android:layout_height="208dp"
-            android:clickable="true"
-            android:contentDescription="@string/image_choose_your_design"
-            android:focusable="true"
-            app:srcCompat="@drawable/choose_your_design" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="230dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_create_your_mask"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:clickable="true"
+                android:contentDescription="@string/image_create_your_mask"
+                android:focusable="true"
+                android:onClick="toCreateYourMask"
+
+                app:srcCompat="@drawable/create_your_mask" />
+
+            <ImageView
+                android:id="@+id/image_choose_your_design"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:clickable="true"
+                android:contentDescription="@string/image_choose_your_design"
+                android:focusable="true"
+                app:srcCompat="@drawable/choose_your_design" />
+
+        </LinearLayout>
+
         <TextView
             android:id="@+id/label_most_popular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/label_most_popular"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
