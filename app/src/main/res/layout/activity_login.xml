@@ -6,17 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="97dp">
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/image_bmkg"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:contentDescription="@string/image_bmkg"
             app:srcCompat="@drawable/icon_bmkg" />
-    </RelativeLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
