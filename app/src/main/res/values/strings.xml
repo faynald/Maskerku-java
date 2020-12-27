@@ -10,4 +10,6 @@
     <string name="image_terpopuler_3">image terpopuler 3</string>
     <string name="image_terpopuler_4">image terpopuler 4</string>
     <string name="image_terpopuler_5">image terpopuler 5</string>
+    <string name="label_upload_files">Upload Files</string>
+    <string name="image_upload_files">image upload files</string>
 </resources>
