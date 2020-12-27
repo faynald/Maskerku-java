@@ -60,16 +60,23 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/image_terpopuler_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/image_terpopuler_1"
-                    app:srcCompat="@drawable/terpopuler_1" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/image_terpopuler_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/image_terpopuler_1"
+                        app:srcCompat="@drawable/terpopuler_1" />
+                </androidx.cardview.widget.CardView>
 
                 <ImageView
                     android:id="@+id/image_terpopuler_2"
