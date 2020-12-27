@@ -30,7 +30,6 @@
                 android:contentDescription="@string/image_create_your_mask"
                 android:focusable="true"
                 android:onClick="toCreateYourMask"
-
                 app:srcCompat="@drawable/create_your_mask" />
 
             <ImageView
@@ -52,6 +51,59 @@
             android:text="@string/label_most_popular"
             android:textColor="#000000"
             android:textSize="18sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_terpopuler_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_terpopuler_1"
+                    app:srcCompat="@drawable/terpopuler_1" />
+
+                <ImageView
+                    android:id="@+id/image_terpopuler_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_terpopuler_2"
+                    app:srcCompat="@drawable/terpopuler_2" />
+
+                <ImageView
+                    android:id="@+id/image_terpopuler_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_terpopuler_3"
+                    app:srcCompat="@drawable/terpopuler_3" />
+
+                <ImageView
+                    android:id="@+id/image_terpopuler_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_terpopuler_4"
+                    app:srcCompat="@drawable/terpopuler_4" />
+
+                <ImageView
+                    android:id="@+id/image_terpopuler_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/image_terpopuler_5"
+                    app:srcCompat="@drawable/terpopuler_5" />
+            </LinearLayout>
+        </HorizontalScrollView>
 
     </LinearLayout>
 

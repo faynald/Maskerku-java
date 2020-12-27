@@ -5,4 +5,9 @@
     <string name="image_choose_your_design">choose your design</string>
     <string name="label_most_popular">Most Popular :</string>
     <string name="title_create_your_mask">Create Your Mask</string>
+    <string name="image_terpopuler_1">image terpopuler 1</string>
+    <string name="image_terpopuler_2">image terpopuler 2</string>
+    <string name="image_terpopuler_3">image terpopuler 3</string>
+    <string name="image_terpopuler_4">image terpopuler 4</string>
+    <string name="image_terpopuler_5">image terpopuler 5</string>
 </resources>
