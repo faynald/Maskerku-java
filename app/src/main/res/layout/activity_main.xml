@@ -66,8 +66,8 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:cardCornerRadius="18dp"
-                    android:elevation="10dp">
+                    android:elevation="10dp"
+                    app:cardCornerRadius="18dp">
 
                     <ImageView
                         android:id="@+id/image_terpopuler_1"
@@ -78,37 +78,62 @@
                         app:srcCompat="@drawable/terpopuler_1" />
                 </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/image_terpopuler_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/image_terpopuler_2"
-                    app:srcCompat="@drawable/terpopuler_2" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="18dp" >
 
-                <ImageView
-                    android:id="@+id/image_terpopuler_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/image_terpopuler_3"
-                    app:srcCompat="@drawable/terpopuler_3" />
+                    <ImageView
+                        android:id="@+id/image_terpopuler_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/image_terpopuler_2"
+                        app:srcCompat="@drawable/terpopuler_2" />
+                </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/image_terpopuler_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/image_terpopuler_4"
-                    app:srcCompat="@drawable/terpopuler_4" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="18dp" >
 
-                <ImageView
-                    android:id="@+id/image_terpopuler_5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/image_terpopuler_5"
-                    app:srcCompat="@drawable/terpopuler_5" />
+                    <ImageView
+                        android:id="@+id/image_terpopuler_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/image_terpopuler_3"
+                        app:srcCompat="@drawable/terpopuler_3" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="18dp" >
+
+                    <ImageView
+                        android:id="@+id/image_terpopuler_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/image_terpopuler_4"
+                        app:srcCompat="@drawable/terpopuler_4" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="18dp" >
+
+                    <ImageView
+                        android:id="@+id/image_terpopuler_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/image_terpopuler_5"
+                        app:srcCompat="@drawable/terpopuler_5" />
+                </androidx.cardview.widget.CardView>
+
             </LinearLayout>
         </HorizontalScrollView>
 
