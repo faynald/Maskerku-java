@@ -15,10 +15,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/label_maskerku"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:layout_marginTop="20dp"
             app:cardBackgroundColor="#00FFFFFF">
 
             <ImageView
@@ -26,8 +36,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/image_bmkg"
-                app:srcCompat="@drawable/icon_bmkg" />
+                app:srcCompat="@drawable/icon_maskerku" />
+
         </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/label_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_login"
+            android:textColor="#000000"
+            android:textSize="22sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
