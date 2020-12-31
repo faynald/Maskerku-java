@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:icon="@mipmap/ic_launcher">
-        <activity android:name=".create_your_mask"
+        <activity android:name=".CreateYourMaskActivity"
             android:label="@string/title_create_your_mask"
             android:parentActivityName="com.pemvis.maskerku.MainActivity" />
         <activity android:name=".LoginActivity"

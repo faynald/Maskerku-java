@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void toCreateYourMask(View v){
-        startActivity(new Intent(MainActivity.this, create_your_mask.class));
+        startActivity(new Intent(MainActivity.this, CreateYourMaskActivity.class));
     }
 
     public void toLogin(MenuItem item) {
