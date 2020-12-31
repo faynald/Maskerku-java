@@ -48,11 +48,57 @@
                 android:text="@string/label_upload_files" />
         </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            tools:ignore="MissingConstraints" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/labelJumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="Jumlah :"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editTextJumlah"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/labelJumlah"
+                android:ems="10"
+                android:hint="0"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/labelComments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelJumlah"
+                android:layout_marginStart="20dp"
+                android:text="Comments"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextComments"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/labelComments"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
+                android:background="#28B8B8B8"
+                android:ems="10"
+                android:hint="Add text..."
+                android:inputType="textPersonName" />
+        </RelativeLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
