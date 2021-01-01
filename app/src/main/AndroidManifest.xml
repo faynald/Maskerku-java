@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ProfileDataDiri"
+            android:name=".ProfileDataDiriActivity"
             android:label="@string/title_profile_data_diri"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".ProfileActivity"/>
         <activity
             android:name=".ProfileActivity"
             android:label="@string/title_profile"
