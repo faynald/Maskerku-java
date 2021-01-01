@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, CreateYourMaskActivity.class));
     }
 
+    public void toTestimoni(MenuItem item){
+        startActivity(new Intent(MainActivity.this, TestimoniActivity.class));
+    }
+
     public void toLogin(MenuItem item) {
         drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
