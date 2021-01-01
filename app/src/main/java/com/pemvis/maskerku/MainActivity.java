@@ -42,10 +42,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toProfile(MenuItem item){
+        drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, ProfileActivity.class));
     }
 
     public void toTestimoni(MenuItem item){
+        drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, TestimoniActivity.class));
     }
 
