@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, CreateYourMaskActivity.class));
     }
 
+    public void toHome(MenuItem item){
+        drawerLayout.closeDrawers();
+    }
+
     public void toProfile(MenuItem item){
         drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, ProfileActivity.class));
