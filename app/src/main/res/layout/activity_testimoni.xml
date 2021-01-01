@@ -4,9 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TestimoniActivity">
-    <include
-        layout="@layout/toolbar_layout"
+    tools:context=".TestimoniActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="50dp"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_testimoni_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_testimoni_1"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        app:srcCompat="@drawable/testimoni_1"
+                        android:contentDescription="image testimoni 1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/label_nama_testimoni_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text='Ibu-ibu Rumah Tangga' />
+
+                        <TextView
+                            android:id="@+id/label_testimoni_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text='"Saya akhirnya bisa senyum setiap saat!"'
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_testimoni_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/linear_layout_testimoni_1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_testimoni_2"
+                        android:layout_width="300dp"
+                        android:layout_height="400dp"
+                        app:srcCompat="@drawable/testimoni_2"
+                        android:contentDescription="image testimoni 2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/label_nama_testimoni_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="Abang Anonim" />
+
+                        <TextView
+                            android:id="@+id/label_testimoni_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text='"Bagus sih, tapi gelap"'
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/linear_layout_testimoni_2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_testimoni_3"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+                        app:srcCompat="@drawable/testimoni_3"
+                        android:contentDescription="image testimoni 3" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/label_nama_testimoni_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="Inosuke" />
+
+                        <TextView
+                            android:id="@+id/label_testimoni_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text='"Nyesel Beli Disini, Bikin Ketagihan"'
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
