@@ -39,6 +39,12 @@ public class CreateYourMaskActivity extends AppCompatActivity {
                 dialogMaskerTerms.dismiss();
             }
         });
+        buttonMengerti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialogMaskerTerms.dismiss();
+            }
+        });
         dialogMaskerTerms.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialogMaskerTerms.show();
     }
