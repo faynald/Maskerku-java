@@ -22,6 +22,18 @@
             android:layout_height="130dp"
             android:background="#22979797">
 
+            <ImageView
+                android:id="@+id/image_edit_foto_profile_data_diri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="142dp"
+                android:src="@drawable/ic_baseline_edit_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/card_profile_akis"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_profile_akis"
                 android:layout_width="wrap_content"
