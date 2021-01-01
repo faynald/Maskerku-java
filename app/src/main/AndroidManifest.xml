@@ -11,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ProfileAlamatActivity"
+            android:label="@string/title_profil_alamat"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity
             android:name=".ProfileDataDiriActivity"
             android:label="@string/title_profile_data_diri"
-            android:parentActivityName=".ProfileActivity"/>
+            android:parentActivityName=".ProfileActivity" />
         <activity
             android:name=".ProfileActivity"
             android:label="@string/title_profile"
