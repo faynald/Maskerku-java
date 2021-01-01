@@ -6,7 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
-public class ProfileDataDiri extends AppCompatActivity {
+public class ProfileDataDiriActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
