@@ -34,7 +34,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/image_akis"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     app:srcCompat="@drawable/profile_akis" />
@@ -95,7 +95,7 @@
             android:background="#22979797">
 
             <ImageView
-                android:id="@+id/image_edit_data_alamat"
+                android:id="@+id/image_edit_nama_profile_data_diri"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
