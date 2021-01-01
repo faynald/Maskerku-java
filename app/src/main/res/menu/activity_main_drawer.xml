@@ -12,6 +12,8 @@
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_baseline_person_24"
+            android:onClick="toProfile"
+            android:checkable="false"
             android:title="Profile" />
         <item
             android:id="@+id/nav_myorder"

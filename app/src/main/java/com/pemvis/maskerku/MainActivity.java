@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, CreateYourMaskActivity.class));
     }
 
+    public void toProfile(MenuItem item){
+        startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+    }
+
     public void toTestimoni(MenuItem item){
         startActivity(new Intent(MainActivity.this, TestimoniActivity.class));
     }
