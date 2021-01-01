@@ -24,4 +24,7 @@ public class ProfileActivity extends AppCompatActivity {
     public void toProfileDataDiri(View v){
         startActivity(new Intent(this, ProfileDataDiriActivity.class));
     }
+    public void toProfileAlamat(View v){
+        startActivity(new Intent(this, ProfileAlamatActivity.class));
+    }
 }
