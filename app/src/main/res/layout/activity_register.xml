@@ -5,35 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_login"
-    tools:context=".LoginActivity"
+    tools:context=".RegisterActivity"
     tools:ignore="HardcodedText">
 
     <ImageView
-        android:id="@+id/image_maskerku_login"
+        android:id="@+id/image_maskerku_register"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:contentDescription="image masker"
+        android:contentDescription="image maskerku"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icon_maskerku" />
 
     <TextView
-        android:id="@+id/label_login"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="LOGIN"
+        android:text="REGISTER"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_maskerku_login" />
+        app:layout_constraintTop_toBottomOf="@+id/image_maskerku_register" />
 
     <EditText
-        android:id="@+id/edit_text_username_login"
-        android:importantForAutofill="no"
+        android:id="@+id/edit_text_username_register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -43,16 +41,16 @@
         android:drawableStart="@drawable/ic_baseline_person_white_24"
         android:ems="10"
         android:hint=" Masukkan username"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:shadowColor="@color/white"
         android:textColor="@color/white"
         android:textColorHint="#90FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/label_login" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/edit_text_password_login"
+        android:id="@+id/edit_text_password_register"
         android:importantForAutofill="no"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -63,15 +61,34 @@
         android:drawableStart="@drawable/ic_baseline_lock_white_24"
         android:ems="10"
         android:hint=" Masukkan password"
+        android:textColor="@color/white"
+        android:textColorHint="#90FFFFFF"
         android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_username_register" />
+
+    <EditText
+        android:id="@+id/edit_text_email_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_email_white_24"
+        android:ems="10"
+        android:hint=" Masukkan email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="#90FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_username_login" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_password_register" />
 
     <TextView
-        android:id="@+id/button_login"
+        android:id="@+id/button_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -81,33 +98,33 @@
         android:paddingTop="5dp"
         android:paddingEnd="10dp"
         android:paddingBottom="8dp"
-        android:text="Login"
+        android:text="Register"
         android:textColor="@color/white"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_password_login" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_email_register" />
 
     <TextView
-        android:id="@+id/text_sign_up"
+        android:id="@+id/text_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/text_sign_up_underlined"
         android:textColor="@color/white"
         android:textSize="18sp"
+        android:text="@string/text_sign_in_underlined"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/text_dont_have_an_account"
+        android:id="@+id/text_already_have_an_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account?"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/text_sign_up"
+        android:text="Already have an account?"
+        app:layout_constraintBottom_toTopOf="@+id/text_sign_in"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

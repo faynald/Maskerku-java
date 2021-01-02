@@ -13,7 +13,7 @@
         <activity
             android:name=".ProfileAlamatActivity"
             android:label="@string/title_profil_alamat"
-            android:parentActivityName=".ProfileActivity"/>
+            android:parentActivityName=".ProfileActivity" />
         <activity
             android:name=".ProfileDataDiriActivity"
             android:label="@string/title_profile_data_diri"
@@ -33,6 +33,9 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_login" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_register"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
