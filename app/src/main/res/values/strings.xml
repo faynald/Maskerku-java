@@ -20,4 +20,5 @@
     <string name="title_profile">Profile</string>
     <string name="title_profile_data_diri">Profile Data Diri</string>
     <string name="title_profil_alamat">Profil Alamat</string>
+    <string name="text_sign_up_underlined"><u>Sign up</u></string>
 </resources>
