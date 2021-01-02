@@ -35,6 +35,10 @@
             android:label="@string/title_create_your_mask"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".ChooseYourDesignActivity"
+            android:label="@string/title_choose_your_design"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".LoginActivity"
             android:label="@string/title_login" />
         <activity
