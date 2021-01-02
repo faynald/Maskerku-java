@@ -49,6 +49,7 @@
                 android:clickable="true"
                 android:contentDescription="@string/image_choose_your_design"
                 android:focusable="true"
+                android:onClick="toChooseYourDesign"
                 app:srcCompat="@drawable/choose_your_design" />
 
         </LinearLayout>
