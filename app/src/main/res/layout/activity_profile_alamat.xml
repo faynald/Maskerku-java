@@ -18,7 +18,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="230dp"
             android:background="#22979797">
 
             <TextView
@@ -49,10 +49,9 @@
                 android:id="@+id/image_edit_alamat_profil_alamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="45dp"
                 android:layout_marginEnd="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/label_alamat_profil_alamat"
                 app:srcCompat="@drawable/ic_baseline_edit_24" />
 
             <TextView
@@ -83,10 +82,9 @@
                 android:id="@+id/image_edit_nama_penerima_profil_alamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
                 android:layout_marginEnd="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/image_edit_alamat_profil_alamat"
+                app:layout_constraintTop_toBottomOf="@+id/label_nama_penerima_profil_alamat"
                 app:srcCompat="@drawable/ic_baseline_edit_24" />
 
             <TextView
@@ -117,12 +115,9 @@
                 android:id="@+id/image_edit_kode_pos_profil_alamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/image_edit_nama_penerima_profil_alamat"
+                app:layout_constraintTop_toBottomOf="@+id/label_kode_pos_profil_alamat"
                 app:srcCompat="@drawable/ic_baseline_edit_24" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
