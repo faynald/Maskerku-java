@@ -34,14 +34,579 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_choose_your_design"
+        tools:ignore="ContentDescription">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/masker_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_1" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/label_masker_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Senyum"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/label_masker_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker BaGoGo"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_2" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/label_masker_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker RGB"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_3" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView1">
+
+                <TextView
+                    android:id="@+id/label_masker_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Horor"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_4" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+                <TextView
+                    android:id="@+id/label_masker_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Gelap"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_5" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+                <TextView
+                    android:id="@+id/label_masker_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Ranger"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView6_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_6" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView7"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+                <TextView
+                    android:id="@+id/label_masker_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Jarjit"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView7_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_7" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView8"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+                <TextView
+                    android:id="@+id/label_masker_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Kriminal"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView8_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_8" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+                <TextView
+                    android:id="@+id/label_masker_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Perokok"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView9_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_9" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView10"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+                <TextView
+                    android:id="@+id/label_masker_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Sub Zero"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView10_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_10" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView11"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+                <TextView
+                    android:id="@+id/label_masker_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Polkadot"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_11" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView12"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView9">
+
+                <TextView
+                    android:id="@+id/label_masker_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker N95"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_12" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView13"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView10">
+                <TextView
+                    android:id="@+id/label_masker_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Hijab"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView13_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_13" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView14"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView11">
+                <TextView
+                    android:id="@+id/label_masker_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Full Face"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView14_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_14" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView15"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView12">
+                <TextView
+                    android:id="@+id/label_masker_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Gaming"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView15_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_15" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView16"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView13">
+                <TextView
+                    android:id="@+id/label_masker_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Wibu"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView16_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+                    <ImageView
+                        android:id="@+id/masker_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/masker_16" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView17"
+                android:layout_width="110dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FFFFFF"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView13">
+                <TextView
+                    android:id="@+id/label_masker_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Masker Antivirus"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView17_1"
+                    android:layout_width="110dp"
+                    android:layout_height="210dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/masker_17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/masker_17" />
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
