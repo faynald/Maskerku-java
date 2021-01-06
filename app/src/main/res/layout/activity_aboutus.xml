@@ -4,6 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutusActivity">
+    tools:context=".AboutusActivity"
+    tools:ignore="HardcodedText">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/text_view_toolbar_setting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About us"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+    </androidx.appcompat.widget.Toolbar>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
