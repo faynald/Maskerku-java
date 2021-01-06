@@ -1,5 +1,6 @@
 package com.pemvis.maskerku;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
@@ -16,8 +17,14 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
-        Toolbar toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar_setting);
+        toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_white_24);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         switchCompat1 = findViewById(R.id.switch1_setting);
         SharedPreferences sharedPreferences1 = getSharedPreferences("save1",MODE_PRIVATE);
