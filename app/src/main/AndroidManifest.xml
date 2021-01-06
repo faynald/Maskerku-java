@@ -11,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AboutusActivity"
+            android:label="@string/about_us"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".SettingActivity"
             android:label="@string/title_setting"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ProfileAlamatActivity"
             android:label="@string/title_profil_alamat"
@@ -37,7 +41,7 @@
         <activity
             android:name=".ChooseYourDesignActivity"
             android:label="@string/title_choose_your_design"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_login" />

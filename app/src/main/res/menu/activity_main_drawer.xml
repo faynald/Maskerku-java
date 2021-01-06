@@ -34,6 +34,12 @@
             android:checkable="false"
             android:title="Setting"/>
         <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:onClick="toAboutus"
+            android:checkable="false"
+            android:title="About us"/>
+        <item
             android:id="@+id/nav_login"
             android:icon="@drawable/ic_baseline_login_24"
             android:onClick="toLogin"

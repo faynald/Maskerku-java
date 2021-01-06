@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, SettingActivity.class));
     }
 
+    public void toAboutus(MenuItem item){
+        drawerLayout.closeDrawers();
+        startActivity(new Intent(this, AboutusActivity.class));
+    }
+
     public void toLogin(MenuItem item) {
         drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
