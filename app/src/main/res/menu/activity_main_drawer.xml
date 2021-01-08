@@ -19,6 +19,8 @@
             android:title="Profile" />
         <item
             android:id="@+id/nav_myorder"
+            android:onClick="toCart"
+            android:checkable="false"
             android:icon="@drawable/ic_baseline_shopping_cart_24"
             android:title="My Order" />
         <item

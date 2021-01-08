@@ -25,4 +25,8 @@
     <string name="text_sign_in_underlined"><u>Sign in</u></string>
     <string name="title_setting">Setting</string>
     <string name="about_us">About us</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="tab_text_1">Cart</string>
+    <string name="tab_text_2">Paid</string>
+    <string name="tab_text_3">Shipped</string>
 </resources>

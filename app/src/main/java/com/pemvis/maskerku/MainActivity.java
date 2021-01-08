@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, ProfileActivity.class));
     }
 
+    public void toCart(MenuItem item){
+        drawerLayout.closeDrawers();
+        startActivity(new Intent(this, CartActivity.class));
+    }
+
     public void toTestimoni(MenuItem item){
         drawerLayout.closeDrawers();
         startActivity(new Intent(MainActivity.this, TestimoniActivity.class));
