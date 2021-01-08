@@ -46,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:background="@drawable/roundstyle"
-                        android:backgroundTint="#46BCF3"
+                        android:backgroundTint="#58C3F4"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -86,8 +86,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:background="#46BCF3"
-                        android:orientation="vertical">
+                        android:background="@drawable/roundstyle"
+                        android:backgroundTint="#58C3F4"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <TextView
                             android:id="@+id/label_nama_testimoni_2"
@@ -123,8 +125,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:background="#46BCF3"
-                        android:orientation="vertical">
+                        android:background="@drawable/roundstyle"
+                        android:backgroundTint="#58C3F4"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <TextView
                             android:id="@+id/label_nama_testimoni_3"
