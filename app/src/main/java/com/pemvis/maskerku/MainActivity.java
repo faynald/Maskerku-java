@@ -33,8 +33,12 @@ public class MainActivity extends AppCompatActivity {
         navigationView = findViewById(R.id.navigation_view);
 
         final ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24);
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+        if (actionBar != null) {
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24);
+        }
 
     }
     public void toCreateYourMask(View v){
