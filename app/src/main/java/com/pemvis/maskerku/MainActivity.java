@@ -120,9 +120,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.image_terpopuler_5:
                 imageMasker.setImageResource(R.drawable.terpopuler_5);
                 break;
-            case R.id.masker_1:
-                imageMasker.setImageResource(R.drawable.terpopuler_5);
-                break;
         }
         x_button.setOnClickListener(new View.OnClickListener() {
             @Override
