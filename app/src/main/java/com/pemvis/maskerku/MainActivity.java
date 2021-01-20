@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         dialogMasker = new Dialog(this);
+
     }
     public void toCreateYourMask(View v){
         startActivity(new Intent(MainActivity.this, CreateYourMaskActivity.class));
@@ -93,15 +94,33 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
     }
 
-    public void popupTerpopuler1(View v){
+
+
+    public void popupTerpopuler(View v){
         dialogMasker.show();
         TextView x_button;
         Button button_ok;
         dialogMasker.setContentView(R.layout.custom_popup_masker);
         x_button = (TextView) dialogMasker.findViewById(R.id.x_button);
         button_ok = (Button) dialogMasker.findViewById(R.id.button_ok);
-        imageMasker = (ImageView) findViewById(R.id.popup_masker_image);
-        // error: imageMasker.setImageResource(R.drawable.terpopuler_1);
+        ImageView imageMasker = (ImageView) dialogMasker.findViewById(R.id.popup_masker_image);
+        switch (v.getId()) {
+            case R.id.image_terpopuler_1:
+                imageMasker.setImageResource(R.drawable.terpopuler_1);
+                break;
+            case R.id.image_terpopuler_2:
+                imageMasker.setImageResource(R.drawable.terpopuler_2);
+                break;
+            case R.id.image_terpopuler_3:
+                imageMasker.setImageResource(R.drawable.terpopuler_3);
+                break;
+            case R.id.image_terpopuler_4:
+                imageMasker.setImageResource(R.drawable.terpopuler_4);
+                break;
+            case R.id.image_terpopuler_5:
+                imageMasker.setImageResource(R.drawable.terpopuler_5);
+                break;
+        }
         x_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
