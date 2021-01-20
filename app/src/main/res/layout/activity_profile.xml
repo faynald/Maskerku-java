@@ -10,7 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#22979797"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription">
 
         <include
@@ -21,7 +26,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:background="#22979797">
+            android:background="@color/white">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_profile_akis"
@@ -62,18 +67,18 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="5dp"
-            android:background="#22979797">
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/image_edit_data_diri"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
+                android:onClick="toProfileDataDiri"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_edit_24"
-                android:onClick="toProfileDataDiri"/>
+                app:srcCompat="@drawable/ic_baseline_edit_24" />
 
             <TextView
                 android:id="@+id/label_data_diri"
@@ -92,18 +97,18 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="5dp"
-            android:background="#22979797">
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/image_edit_alamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
+                android:onClick="toProfileAlamat"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_edit_24"
-                android:onClick="toProfileAlamat"/>
+                app:srcCompat="@drawable/ic_baseline_edit_24" />
 
             <TextView
                 android:id="@+id/label_data_alamat"
