@@ -67,7 +67,8 @@
                         android:id="@+id/masker_1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_1" />
+                        app:srcCompat="@drawable/masker_1"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
 
                 <TextView
@@ -112,7 +113,8 @@
                         android:id="@+id/masker_2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_2" />
+                        app:srcCompat="@drawable/masker_2"
+                        android:onClick="popupTerpopuler" />
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -146,7 +148,8 @@
                         android:id="@+id/masker_3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_3" />
+                        app:srcCompat="@drawable/masker_3"
+                        android:onClick="popupTerpopuler"/>
 
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
@@ -179,7 +182,8 @@
                         android:id="@+id/masker_4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_4" />
+                        app:srcCompat="@drawable/masker_4"
+                        android:onClick="popupTerpopuler" />
 
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
@@ -211,10 +215,11 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/masker_5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_5" />
+                        app:srcCompat="@drawable/masker_5"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -246,7 +251,8 @@
                         android:id="@+id/masker_6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_6" />
+                        app:srcCompat="@drawable/masker_6"
+                        android:onClick="popupTerpopuler" />
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -278,7 +284,8 @@
                         android:id="@+id/masker_7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_7" />
+                        app:srcCompat="@drawable/masker_7"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -312,7 +319,8 @@
                         android:id="@+id/masker_8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_8" />
+                        app:srcCompat="@drawable/masker_8"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -346,7 +354,8 @@
                         android:id="@+id/masker_9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_9" />
+                        app:srcCompat="@drawable/masker_9"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -380,7 +389,8 @@
                         android:id="@+id/masker_10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_10" />
+                        app:srcCompat="@drawable/masker_10"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -414,7 +424,8 @@
                         android:id="@+id/masker_11"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_11" />
+                        app:srcCompat="@drawable/masker_11"
+                        android:onClick="popupTerpopuler" />
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -448,7 +459,8 @@
                         android:id="@+id/masker_12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_12" />
+                        app:srcCompat="@drawable/masker_12"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -479,7 +491,8 @@
                         android:id="@+id/masker_13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_13" />
+                        app:srcCompat="@drawable/masker_13"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -510,7 +523,8 @@
                         android:id="@+id/masker_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_14" />
+                        app:srcCompat="@drawable/masker_14"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -541,7 +555,8 @@
                         android:id="@+id/masker_15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_15" />
+                        app:srcCompat="@drawable/masker_15"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -572,7 +587,8 @@
                         android:id="@+id/masker_16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/masker_16" />
+                        app:srcCompat="@drawable/masker_16"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
@@ -604,7 +620,8 @@
                         android:id="@+id/masker_17"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:srcCompat="@drawable/masker_17" />
+                        app:srcCompat="@drawable/masker_17"
+                        android:onClick="popupTerpopuler"/>
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
