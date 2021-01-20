@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dialogMasker.dismiss();
+                startActivity(new Intent(MainActivity.this, CartActivity.class));
             }
         });
 
