@@ -30,8 +30,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/terpopuler_1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_ok"
